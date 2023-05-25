@@ -25,7 +25,7 @@ $(document).ready(function() {
   var rightPaddle = $('.right-paddle');
   // dimensions
   var itemsLength = $('.slider .sn_box').length;
-  var itemSize = $('.sn_box').outerWidth(true) + 13;
+  var itemSize = $('.sn_box').outerWidth(true) + 10;
   // get some relevant size for the paddle triggering point
   var paddleMargin = 20;
 
